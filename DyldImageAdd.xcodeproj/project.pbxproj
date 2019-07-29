@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F352531C22E9A3CA0063949B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F352531B22E9A3CA0063949B /* AppDelegate.m */; };
+		F352531F22E9A3CA0063949B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F352531E22E9A3CA0063949B /* SceneDelegate.m */; };
+		F352532222E9A3CA0063949B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F352532122E9A3CA0063949B /* ViewController.m */; };
+		F352532522E9A3CA0063949B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F352532322E9A3CA0063949B /* Main.storyboard */; };
+		F352532722E9A3CB0063949B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F352532622E9A3CB0063949B /* Assets.xcassets */; };
+		F352532A22E9A3CB0063949B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F352532822E9A3CB0063949B /* LaunchScreen.storyboard */; };
+		F352532D22E9A3CB0063949B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F352532C22E9A3CB0063949B /* main.m */; };
+		F352533722E9A3CB0063949B /* DyldImageAddTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F352533622E9A3CB0063949B /* DyldImageAddTests.m */; };
+		F352534222E9A3CB0063949B /* DyldImageAddUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F352534122E9A3CB0063949B /* DyldImageAddUITests.m */; };
+		F352535222E9A40E0063949B /* PrintImage.c in Sources */ = {isa = PBXBuildFile; fileRef = F352535122E9A40E0063949B /* PrintImage.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F352533322E9A3CB0063949B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F352530F22E9A3CA0063949B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F352531622E9A3CA0063949B;
+			remoteInfo = DyldImageAdd;
+		};
+		F352533E22E9A3CB0063949B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F352530F22E9A3CA0063949B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F352531622E9A3CA0063949B;
+			remoteInfo = DyldImageAdd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F352531722E9A3CA0063949B /* DyldImageAdd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DyldImageAdd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F352531A22E9A3CA0063949B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F352531B22E9A3CA0063949B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F352531D22E9A3CA0063949B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F352531E22E9A3CA0063949B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F352532022E9A3CA0063949B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F352532122E9A3CA0063949B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F352532422E9A3CA0063949B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F352532622E9A3CB0063949B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F352532922E9A3CB0063949B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F352532B22E9A3CB0063949B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F352532C22E9A3CB0063949B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F352533222E9A3CB0063949B /* DyldImageAddTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyldImageAddTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F352533622E9A3CB0063949B /* DyldImageAddTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DyldImageAddTests.m; sourceTree = "<group>"; };
+		F352533822E9A3CB0063949B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F352533D22E9A3CB0063949B /* DyldImageAddUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DyldImageAddUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F352534122E9A3CB0063949B /* DyldImageAddUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DyldImageAddUITests.m; sourceTree = "<group>"; };
+		F352534322E9A3CB0063949B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F352535022E9A40E0063949B /* PrintImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintImage.h; sourceTree = "<group>"; };
+		F352535122E9A40E0063949B /* PrintImage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PrintImage.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F352531422E9A3CA0063949B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F352532F22E9A3CB0063949B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F352533A22E9A3CB0063949B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F352530E22E9A3CA0063949B = {
+			isa = PBXGroup;
+			children = (
+				F352531922E9A3CA0063949B /* DyldImageAdd */,
+				F352533522E9A3CB0063949B /* DyldImageAddTests */,
+				F352534022E9A3CB0063949B /* DyldImageAddUITests */,
+				F352531822E9A3CA0063949B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F352531822E9A3CA0063949B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F352531722E9A3CA0063949B /* DyldImageAdd.app */,
+				F352533222E9A3CB0063949B /* DyldImageAddTests.xctest */,
+				F352533D22E9A3CB0063949B /* DyldImageAddUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F352531922E9A3CA0063949B /* DyldImageAdd */ = {
+			isa = PBXGroup;
+			children = (
+				F352535022E9A40E0063949B /* PrintImage.h */,
+				F352535122E9A40E0063949B /* PrintImage.c */,
+				F352532C22E9A3CB0063949B /* main.m */,
+				F352531A22E9A3CA0063949B /* AppDelegate.h */,
+				F352531B22E9A3CA0063949B /* AppDelegate.m */,
+				F352531D22E9A3CA0063949B /* SceneDelegate.h */,
+				F352531E22E9A3CA0063949B /* SceneDelegate.m */,
+				F352532022E9A3CA0063949B /* ViewController.h */,
+				F352532122E9A3CA0063949B /* ViewController.m */,
+				F352532322E9A3CA0063949B /* Main.storyboard */,
+				F352532622E9A3CB0063949B /* Assets.xcassets */,
+				F352532822E9A3CB0063949B /* LaunchScreen.storyboard */,
+				F352532B22E9A3CB0063949B /* Info.plist */,
+			);
+			path = DyldImageAdd;
+			sourceTree = "<group>";
+		};
+		F352533522E9A3CB0063949B /* DyldImageAddTests */ = {
+			isa = PBXGroup;
+			children = (
+				F352533622E9A3CB0063949B /* DyldImageAddTests.m */,
+				F352533822E9A3CB0063949B /* Info.plist */,
+			);
+			path = DyldImageAddTests;
+			sourceTree = "<group>";
+		};
+		F352534022E9A3CB0063949B /* DyldImageAddUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F352534122E9A3CB0063949B /* DyldImageAddUITests.m */,
+				F352534322E9A3CB0063949B /* Info.plist */,
+			);
+			path = DyldImageAddUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F352531622E9A3CA0063949B /* DyldImageAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F352534622E9A3CB0063949B /* Build configuration list for PBXNativeTarget "DyldImageAdd" */;
+			buildPhases = (
+				F352531322E9A3CA0063949B /* Sources */,
+				F352531422E9A3CA0063949B /* Frameworks */,
+				F352531522E9A3CA0063949B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DyldImageAdd;
+			productName = DyldImageAdd;
+			productReference = F352531722E9A3CA0063949B /* DyldImageAdd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F352533122E9A3CB0063949B /* DyldImageAddTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F352534922E9A3CB0063949B /* Build configuration list for PBXNativeTarget "DyldImageAddTests" */;
+			buildPhases = (
+				F352532E22E9A3CB0063949B /* Sources */,
+				F352532F22E9A3CB0063949B /* Frameworks */,
+				F352533022E9A3CB0063949B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F352533422E9A3CB0063949B /* PBXTargetDependency */,
+			);
+			name = DyldImageAddTests;
+			productName = DyldImageAddTests;
+			productReference = F352533222E9A3CB0063949B /* DyldImageAddTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F352533C22E9A3CB0063949B /* DyldImageAddUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F352534C22E9A3CB0063949B /* Build configuration list for PBXNativeTarget "DyldImageAddUITests" */;
+			buildPhases = (
+				F352533922E9A3CB0063949B /* Sources */,
+				F352533A22E9A3CB0063949B /* Frameworks */,
+				F352533B22E9A3CB0063949B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F352533F22E9A3CB0063949B /* PBXTargetDependency */,
+			);
+			name = DyldImageAddUITests;
+			productName = DyldImageAddUITests;
+			productReference = F352533D22E9A3CB0063949B /* DyldImageAddUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F352530F22E9A3CA0063949B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = syj;
+				TargetAttributes = {
+					F352531622E9A3CA0063949B = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					F352533122E9A3CB0063949B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F352531622E9A3CA0063949B;
+					};
+					F352533C22E9A3CB0063949B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = F352531622E9A3CA0063949B;
+					};
+				};
+			};
+			buildConfigurationList = F352531222E9A3CA0063949B /* Build configuration list for PBXProject "DyldImageAdd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F352530E22E9A3CA0063949B;
+			productRefGroup = F352531822E9A3CA0063949B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F352531622E9A3CA0063949B /* DyldImageAdd */,
+				F352533122E9A3CB0063949B /* DyldImageAddTests */,
+				F352533C22E9A3CB0063949B /* DyldImageAddUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F352531522E9A3CA0063949B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F352532A22E9A3CB0063949B /* LaunchScreen.storyboard in Resources */,
+				F352532722E9A3CB0063949B /* Assets.xcassets in Resources */,
+				F352532522E9A3CA0063949B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F352533022E9A3CB0063949B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F352533B22E9A3CB0063949B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F352531322E9A3CA0063949B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F352532222E9A3CA0063949B /* ViewController.m in Sources */,
+				F352531C22E9A3CA0063949B /* AppDelegate.m in Sources */,
+				F352532D22E9A3CB0063949B /* main.m in Sources */,
+				F352531F22E9A3CA0063949B /* SceneDelegate.m in Sources */,
+				F352535222E9A40E0063949B /* PrintImage.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F352532E22E9A3CB0063949B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F352533722E9A3CB0063949B /* DyldImageAddTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F352533922E9A3CB0063949B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F352534222E9A3CB0063949B /* DyldImageAddUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F352533422E9A3CB0063949B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F352531622E9A3CA0063949B /* DyldImageAdd */;
+			targetProxy = F352533322E9A3CB0063949B /* PBXContainerItemProxy */;
+		};
+		F352533F22E9A3CB0063949B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F352531622E9A3CA0063949B /* DyldImageAdd */;
+			targetProxy = F352533E22E9A3CB0063949B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F352532322E9A3CA0063949B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F352532422E9A3CA0063949B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F352532822E9A3CB0063949B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F352532922E9A3CB0063949B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F352534422E9A3CB0063949B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F352534522E9A3CB0063949B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F352534722E9A3CB0063949B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DyldImageAdd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DyldImageAdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F352534822E9A3CB0063949B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DyldImageAdd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DyldImageAdd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F352534A22E9A3CB0063949B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DyldImageAddTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DyldImageAddTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DyldImageAdd.app/DyldImageAdd";
+			};
+			name = Debug;
+		};
+		F352534B22E9A3CB0063949B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DyldImageAddTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DyldImageAddTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DyldImageAdd.app/DyldImageAdd";
+			};
+			name = Release;
+		};
+		F352534D22E9A3CB0063949B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DyldImageAddUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DyldImageAddUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DyldImageAdd;
+			};
+			name = Debug;
+		};
+		F352534E22E9A3CB0063949B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DyldImageAddUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DyldImageAddUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DyldImageAdd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F352531222E9A3CA0063949B /* Build configuration list for PBXProject "DyldImageAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F352534422E9A3CB0063949B /* Debug */,
+				F352534522E9A3CB0063949B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F352534622E9A3CB0063949B /* Build configuration list for PBXNativeTarget "DyldImageAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F352534722E9A3CB0063949B /* Debug */,
+				F352534822E9A3CB0063949B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F352534922E9A3CB0063949B /* Build configuration list for PBXNativeTarget "DyldImageAddTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F352534A22E9A3CB0063949B /* Debug */,
+				F352534B22E9A3CB0063949B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F352534C22E9A3CB0063949B /* Build configuration list for PBXNativeTarget "DyldImageAddUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F352534D22E9A3CB0063949B /* Debug */,
+				F352534E22E9A3CB0063949B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F352530F22E9A3CA0063949B /* Project object */;
+}
